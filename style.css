@@ -1,0 +1,133 @@
+nav ul {
+    display: flex;
+    list-style: none;
+    background: #262425;
+    overflow: hidden;
+    padding: 0;
+    height: 80px;
+  }
+  nav li {
+    margin-right: 10px;
+    font-size: 20px;
+  }
+  
+  nav a {
+    color: #fdfcfc;
+    text-decoration: none;
+  }
+  
+  .image {
+    width: 300px;
+    height:300px;
+   
+    border: 5px solid #817a77;
+    padding: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .image-logo {
+    width: 100px;
+    height:70px;
+  }
+  
+  .main-container {
+     
+     display: flex;
+     flex-wrap: wrap;
+  }
+  
+  .section-left {
+    float: left;
+    width: 40%;
+    padding-right: 10px;
+  
+  }
+  
+  .section-right {
+    float: right;
+    width: 50%;
+    padding-left: 10px;
+  
+  }
+  
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+    
+  
+  .container {
+    max-width: 1440px;
+    margin: 0 auto;
+  
+  }
+  
+  .top-right {
+    border-radius: 0 40px 40px 0;
+    background-color: #34363b;
+    color: #fdfcfc;
+  }
+  
+  .top-left {
+    border-radius:  40px 0 0 40px ;
+    background-color: #34363b;
+    color: #fdfcfc;
+  }
+  
+  h1 {
+    font-size: 50px;
+    text-align: center;
+    font-family: "Nunito Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:"wdth" 100,"YTLC" 500;
+  }
+  
+  h2 {
+    font-size: 40px;
+    text-align: center;
+    font-family: "Nunito Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:"wdth" 100,"YTLC" 500;
+  }
+  
+  h3 {
+    font-size: 30px;
+    text-align: center;
+    font-family: "Nunito Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:"wdth" 100,"YTLC" 500;
+  }
+  
+  code {background-color: #c1bdbb;}
+  
+  p, li, td, pre {
+    font-size: 20px;
+    font-family: "Nunito Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings: "wdth" 100, "YTLC" 500;
+    padding: 3px;
+  }
+  
+  .footer-container {
+    background-color: #262425;
+    text-align: center; 
+    color: #fdfcfc;
+    
+  }
+  
+  .footer-container a {
+    color: #fdfcfc;
+    text-decoration: none;
+  }
