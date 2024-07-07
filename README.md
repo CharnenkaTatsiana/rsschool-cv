@@ -2,4 +2,4 @@
 
 https://CharnenkaTatsiana.github.io/rsschool-cv/cv
 
-https://GITHUB-USERNAME.github.io/rsschool-cv/
+https://CharnenkaTatsiana.github.io/rsschool-cv/
