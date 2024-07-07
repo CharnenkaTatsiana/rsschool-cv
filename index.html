@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="assets/favicon.ico" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
+    <title>CV</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+             <nav>
+                 <ul>
+                     <li><a href='#contact'>Contact information</a></li>
+                     <li><a href='#about'>About me</a></li>
+                     <li><a href='#skills'>Skills</a></li>
+                     <li><a href='#code'>Code example</a></li>
+                     <li><a href='#education'>Education</a></li>
+                     <li><a href='#languages'>Languages</a></li>
+                 </ul>
+             </nav>
+          </div>
+     </header>
+     <main class = "main-container">
+             <div class="container">
+             <div class="section-left">
+                 <img src="assets/avatar.jpg" alt="avatar" class="image" />
+                 <h1>Tatsiana Charnenka</h1>
+                 <h2>JUNIOR FRONTEND DEVELOPER</h2>
+                 <h3 id='contact' class="top-right">Contact information</h3>
+                 <p>&#9872; Minsk, Belarus</p>
+                 <p>&#9742; +375(33) 638 87 21</p>
+                 <p>&#9993; charnenka1.23@gmail.com</p>
+   
+                 <h3 id='skills' class="top-right">Skills</h3>
+                   <table>
+                    <tr>
+                        <td>HTML</td>
+                        <td> &#9899; &#9899; &#9899; &#9898; &#9898;</td>
+                    </tr> 
+                    <tr>
+                        <td>CSS</td>
+                        <td> &#9899; &#9899; &#9899; &#9898; &#9898;</td>
+                    </tr> 
+                     <tr>
+                        <td>JavaScript Basics</td>
+                        <td> &#9899; &#9899; &#9898; &#9898; &#9898;</td>
+                    </tr>                    
+                      <tr>
+                        <td>Git, GitHub</td>
+                        <td> &#9899; &#9899; &#9899; &#9898; &#9898;</td>
+                    </tr>                      
+                    
+                 </table>
+             </div>
+              <div class="section-right">
+             <h3 id='about' class="top-left">About me</h3>
+             <p>I am 34 years old. I have been working as a energy engineer for about 10 years. I want to try myself in a new business and change my life. That's why i'm here and want to gain knowledge in frontend development.</p>
+             <p>My strengths:</p>
+                 <ul>
+                     <li>Diligence</li>
+                     <li>Team playing</li>
+                     <li>Quick learner</li>
+                     <li>Аttentiveness</li>
+                 </ul>
+             
+       
+ 
+ 
+         <h3 id='code' class="top-left">Code example</h3>
+        <p>Complete the function that takes a non-negative integer n as input, and returns a list of all the powers of 2 with the exponent ranging from 0 to n ( inclusive ).</p>
+        <p><code>
+           
+            function powersOfTwo(n){<br>
+              let result = [];<br>
+              for (let i = 0; i <= n; i++) {<br>
+               result.push(Math.pow(2, i));<br>
+               }<br>
+              return result;<br>
+             }<br>
+        </code></p>
+    
+         <h3 id='education' class="top-left">Education</h3>
+         <ol>
+             <li>Belarusian National Technical University
+                 <ul>
+                     <li>automation and control of energy processes</li>
+                 </ul>
+             </li>
+             <li>Institute of IT & Business Administration
+                 <ul>
+                     <li>programmer analyst (in progress)</li>
+                 </ul>
+             </li>
+         </ol>
+ 
+         <h3 id='languages' class="top-left">Languages</h3>
+         <ol>
+             <li>Russian - Native</li>
+             <li>English - Pre-Intermediate</li>
+             <li>Polish - Elementary</li>
+         </ol>
+      </div>
+      </div>   
+     </main>
+     <footer>
+         <div class="container">
+           <div class="footer-container">
+             <p>2024 &nbsp; &nbsp; &nbsp;
+             <a href="https://github.com/CharnenkaTatsiana">My GitHub</a> &nbsp; &nbsp; &nbsp;
+             <a href="https://rs.school/courses/javascript-ru">
+             <img src="assets/rs-school-logo.svg" alt="logo" width= "100" height="60" /></a>
+             </p>
+         </div>
+         </div>
+     </footer>   
+</body>
+</html>
